@@ -1,5 +1,6 @@
 # Branding
 $(call inherit-product, vendor/aosp/config/branding.mk)
+$(call inherit-product-if-exists, vendor/aosp/fonts/fonts.mk)
 
 PRODUCT_BRAND ?= PixelExperience
 
